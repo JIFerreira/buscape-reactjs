@@ -1,0 +1,106 @@
+.container-gallery{
+    width: 100%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+/*
+===========================
+    icon-images
+===========================
+*/
+.container-gallery .icon-images{
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+.container-gallery .icon-images ul{
+    float: left;
+    width: 100%;
+    position: absolute;
+    height: 260px;
+}
+.container-gallery .icon-images ul li{
+    width: 100%;
+    display: inline-block;
+    float: left;
+    height: auto;
+    margin: 5px 0;
+}
+
+.container-gallery .icon-images ul li img{
+    width: 100%;
+    float: left;
+}
+
+/*
+===========================
+    main-image
+===========================
+*/
+.container-gallery .main-image{
+    width: 80%;
+    height: auto;
+    float: right;
+}
+
+.container-gallery .main-image img{
+    width: 100%;
+    max-width: 200px;
+    float: right;
+}
+
+/*
+===========================
+    Tags
+===========================
+*/
+.image-selected{
+    border: 1px solid #ffdc4d;
+}
+
+/*
+===========================
+    BREAKPOINTS
+===========================
+*/
+
+@media screen and (min-width: 520px ) and (max-width: 740px){
+    .container-gallery{
+        width: 100%;
+        float: left;
+        height: 100%;
+        position: relative;
+    }
+    
+    /*
+    ===========================
+        icon-images
+    ===========================
+    */
+    .container-gallery .icon-images {
+        width: 16%;
+        height: 235px;
+        float: left;
+        position: absolute;
+    }
+    
+    /*
+    ===========================
+        main-image
+    ===========================
+    */
+    .container-gallery .main-image{
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .container-gallery .main-image img{
+        width: 100%;
+        max-width: 200px;
+    }
+    
+}
